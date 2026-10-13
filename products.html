@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Good OLd' Bakery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">Good OLd' Bakery</div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="aktif">Products</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="locations.html">Locations</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="judul-halaman">
+      <h1>Our Artisanal Collections</h1>
+      <p>Discover the warmth of traditional baking. Baked with patience, served with love.</p>
+    </div>
+
+  <div class="filter-menu">
+      <a href="javascript:void(0)" class="btn-pill aktif" onclick="filterProduk('all', this)">All Creations</a>
+      <a href="javascript:void(0)" class="btn-pill" onclick="filterProduk('cakes', this)">Cakes</a>
+      <a href="javascript:void(0)" class="btn-pill" onclick="filterProduk('breads', this)">Breads</a>
+      <a href="javascript:void(0)" class="btn-pill" onclick="filterProduk('pastries', this)">Pastries</a>
+    </div>
+
+    <div class="kumpulan-produk">
+      <div class="kotak-produk" data-kategori="cakes">
+        <img src="assets/tiramisu.jpg" alt="Tiramisu">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Classic Tiramisu</h4>
+            <span class="harga">$12.00</span>
+          </div>
+          <p class="desc-produk">A classic Italian dessert with layers of coffee-soaked ladyfingers and creamy mascarpone.</p>
+        </div>
+      </div>
+      <div class="kotak-produk" data-kategori="breads">
+        <img src="assets/Sourdough.jpg" alt="Sourdough">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Classic Sourdough</h4>
+            <span class="harga">$8.00</span>
+          </div>
+          <p class="desc-produk">72-hour fermented traditional bread with crispy crust.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="pastries">
+        <img src="assets/eclair.jpg" alt="Eclair">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Eclair</h4>
+            <span class="harga">$4.00</span>
+          </div>
+          <p class="desc-produk">A classic French pastry filled with cream and topped with chocolate glaze.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="cakes">
+        <img src="assets/burntcheesecake.jpg" alt="Basque Burnt Cheesecake">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Basque Burnt Cheesecake</h4>
+            <span class="harga">$22.00</span>
+          </div>
+          <p class="desc-produk">A rich and creamy cheesecake with a caramelized top.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="breads">
+        <img src="assets/ciabatta.jpg" alt="Ciabatta">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Ciabatta</h4>
+            <span class="harga">$5.00</span>
+          </div>
+          <p class="desc-produk">A traditional Italian bread with a chewy interior and crispy crust.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="cakes">
+        <img src="assets/infusedrosecake.jpg" alt="Rose Cake">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Rose-infused Cake</h4>
+            <span class="harga">$15.00</span>
+          </div>
+          <p class="desc-produk">Delicate sponge cake infused with natural rose water.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="breads">
+        <img src="assets/baguette.jpg" alt="Baguette">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Baguette</h4>
+            <span class="harga">$3.00</span>
+          </div>
+          <p class="desc-produk">Crispy French bread with a soft interior.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="pastries">
+        <img src="assets/eggtart.jpg" alt="Egg Tart">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Egg Tart</h4>
+            <span class="harga">$4.00</span>
+          </div>
+          <p class="desc-produk">A traditional Chinese pastry filled with a sweet egg custard.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="cakes">
+        <img src="assets/Strawberry Cheesecake.jpg" alt="Strawberry Cheesecake">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Strawberry Cheesecake</h4>
+            <span class="harga">$22.00</span>
+          </div>
+          <p class="desc-produk">A delightful blend of creamy cheesecake and fresh strawberries.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="pastries">
+        <img src="assets/buttercroissant.jpg" alt="Croissant">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Butter Croissant</h4>
+            <span class="harga">$4.00</span>
+          </div>
+          <p class="desc-produk">Flaky, buttery, and baked fresh every morning.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="cakes">
+        <img src="assets/redvelvetcake.jpg" alt="Velvet">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Red Velvet Cake</h4>
+            <span class="harga">$18.00</span>
+          </div>
+          <p class="desc-produk">Premium cream cheese frosting with a touch of cocoa.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="pastries">
+        <img src="assets/painauchocolat.jpg" alt="Pain Au Chocolat">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Pain Au Chocolat</h4>
+            <span class="harga">$3.90</span>
+          </div>
+          <p class="desc-produk">Rich, buttery pastry filled with dark chocolate.</p>
+        </div>
+      </div>
+
+      <div class="kotak-produk" data-kategori="pastries">
+        <img src="assets/cherrydanish.jpg" alt="Danish">
+        <div class="info-produk">
+          <div class="info-atas">
+            <h4>Cherry Danish</h4>
+            <span class="harga">$6.00</span>
+          </div>
+          <p class="desc-produk">Sweet cherry filling wrapped in delicate pastry layers.</p>
+        </div>
+      </div>
+
+    </div> </div> <div class="footer">
+    <div class="footer-kiri">
+      <h3>Good OLd' Bakery</h3>
+      <p>&copy; 2024 Good OLd' Bakery. Hand-crafted with love and flour.</p>
+    </div>
+    <div class="footer-kanan">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations - Good OLd' Bakery</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">Good OLd' Bakery</div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="locations.html" class="aktif">Locations</a>
+            <a href="register.html">Register</a>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="judul-halaman">
+            <span class="label-kecil">OUR HERITAGE</span>
+            <h1>Where to Find Us</h1>
+            <p>Step into the warmth of our ovens! Visit our branches across the city. :D</p>
+        </div>
+
+        <div class="filter-lokasi">
+    <label>Quick Finder:</label>
+    <select class="input-area" id="areaSelect">
+        <option value="">Select an area...</option>
+        <option value="blokm">Blok M</option>
+        <option value="bsd">BSD City</option>
+        <option value="kemanggisan">Kemanggisan</option>
+    </select>
+    <button class="btn-pill aktif" id="btnCariLokasi">View Branch Info</button>
+</div>
+
+        <div class="bungkus-lokasi">
+            
+            <div class="list-cabang">
+                
+                <div class="kartu-cabang" id="blokm">
+                    <img src="assets/bakery-shelf2.jpg" alt="Good OLd' Bakery Blok M" class="foto-toko">
+                    <div class="info-cabang">
+                        <h4>Good OLd' Bakery Blok M</h4>
+                        <p class="desc">Our very first neighborhood bakery with a classic vintage vibe.</p>
+                        <p><strong>Opening Hours:</strong> 07:00 AM - 09:00 PM</p>
+                        <p><strong>Phone:</strong> +62 812-3456-7890</p>
+                        <p><strong>Address:</strong> Jl. Melawai Raya, Blok M, Jakarta Selatan</p>
+                        <a href="mailto:goodoldbakeryblokm@outlook.id" class="link-email">goodoldbakeryblokm@outlook.id</a>
+                    </div>
+                </div>
+
+                <div class="kartu-cabang" id="bsd">
+                    <img src="assets/bakery-shelf1.jpg" alt="Good OLd' Bakery BSD" class="foto-toko">
+                    <div class="info-cabang">
+                        <h4>Good OLd' Bakery BSD</h4>
+                        <p class="desc">Modern artisanal bakery space perfect for weekend hangouts.</p>
+                        <p><strong>Opening Hours:</strong> 08:00 AM - 10:00 PM</p>
+                        <p><strong>Phone:</strong> +62 821-9876-5432</p>
+                        <p><strong>Address:</strong> Icon Residence area, BSD City, Tangerang</p>
+                        <a href="mailto:goodoldbakerybsd@outlook.id" class="link-email">goodoldbakerybsd@outlook.id</a>
+                    </div>
+                </div>
+
+                <div class="kartu-cabang" id="kemanggisan">
+                    <img src="assets/bakery-shelf.jpg" alt="Good OLd' Bakery Kemanggisan" class="foto-toko">
+                    <div class="info-cabang">
+                        <h4>Good OLd' Bakery Kemanggisan</h4>
+                        <p class="desc">Cozy spot tailored for BINUS students to chill and study.</p>
+                        <p><strong>Opening Hours:</strong> 06:30 AM - 08:30 PM</p>
+                        <p><strong>Phone:</strong> +62 856-1122-3344</p>
+                        <p><strong>Address:</strong> Near BINUS University Anggrek Campus, West Jakarta</p>
+                        <a href="mailto:goodoldbakerykemanggisan@outlook.id" class="link-email">goodoldbakerykemanggisan@outlook.id</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="peta-cabang">
+
+                <iframe
+                    id="mapFrame"
+                    src="https://maps.google.com/maps?q=Blok%20M%20Jakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-kiri">
+            <h3>Good OLd' Bakery</h3>
+            <p>&copy; 2024 Good OLd' Bakery. Hand-crafted with love and flour.</p>
+        </div>
+        <div class="footer-kanan">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

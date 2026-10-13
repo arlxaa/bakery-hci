@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Good OLd' Bakery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">Good OLd' Bakery</div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="locations.html">Locations</a>
+      <a href="register.html" class="aktif">Register</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="register-wrap">
+      
+      <div class="reg-kiri">
+        <h2>Join the Family</h2>
+        <p>Become a member of Good OLd' Bakery and enjoy the warmth of artisanal bread delivered straight from our ovens to your heart.</p>
+        <img src="assets/bakery-shelf.jpg" alt="Bakery Shop">
+      </div>
+
+      <div class="reg-kanan">
+        <h3>Create Account</h3>
+        <form id="regis-form">
+          
+          <div class="grup-input">
+            <label>Full Name</label>
+            <input type="text" id="input_nama" class="isian">
+          </div>
+
+          <div class="grup-input">
+            <label>Email Address</label>
+            <input type="text" id="input_email" class="isian">
+          </div>
+
+          <div class="grup-input">
+            <label>Password</label>
+            <input type="password" id="input_pass" class="isian">
+          </div>
+
+          <div class="baris-input">
+            <div class="setengah">
+              <label>Gender</label>
+              <select id="input_gender" class="isian">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="setengah">
+              <label>Date of Birth</label>
+              <input type="date" id="input_dob" class="isian">
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit">JOIN THE COMMUNITY</button>
+
+          <div class="syarat">
+            <input type="checkbox" id="input_syarat">
+            <label for="input_syarat">By clicking this, you agree to our <a href="#">Terms of Service</a></label>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-kiri">
+      <h3>Good OLd' Bakery</h3>
+      <p>&copy; 2024 Good OLd' Bakery. Hand-crafted with love and flour.</p>
+    </div>
+    <div class="footer-kanan">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
